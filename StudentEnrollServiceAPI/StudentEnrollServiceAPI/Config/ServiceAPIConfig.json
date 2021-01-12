@@ -1,0 +1,28 @@
+﻿{
+  "servicePort": [
+    {
+      "env": "http://localhost:2020",
+      "apiPort": "51952",
+      "url": "http://localhost:51952/",
+      "label": "DUMMY ACCOOUNT",
+      "config": []
+    },
+    {
+      "env": "http://localhost:3000",
+      "apiPort": "51952",
+      "url": "http://localhost:51952",
+      "label": "TESTING",
+      "config": [
+        {
+          "connectionname": "SAMPLE",
+          "hostipaddress": "SAMPLE",
+          "orderentryport": 12345,
+          "customerserviceport": 12345,
+          "database": "SAMPLE",
+          "adcredentials": true
+        }
+      ]
+    },
+    
+  ]
+}
